@@ -6,7 +6,7 @@ function escolhaSaiygaFase(num,respostaCerta) {
     var resposta = window.prompt("Selecione a resposta!");
 
     while(resposta != respostaCerta){
-        if (tentativas <= 1){
+        if (tentativas <= 0){
             tentativas += 1;
             alert(" Resposta errada. tentativa " + tentativas.toString() )
             resposta = window.prompt("Selecione uma resposta")
