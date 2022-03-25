@@ -10,11 +10,11 @@ function escolhaShunFase(num,respostaCerta) {
             resposta = window.prompt("Selecione uma resposta")
         } else {
             alert("Lamentamos vc perdeu o Jogo! ")
-            window.location.href = "/img/gameOver.jpg";
+            window.location.href = "../img/gameOver.jpg";
         }
     }
     if (pagina == 4){
-        return window.location.href = "/Personagens_CDZ/Shun/fimDeJogo.html";
+        return window.location.href = "../Personagens_CDZ/Shun/fimDeJogo.html";
     }
     return  window.location.href = "shunFase" + pagina + ".html";
 }
