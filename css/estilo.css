@@ -76,6 +76,10 @@ body {
     font-size: 40px;
     color:#344e41 ;
 }
+.imgs{
+  text-align: center;
+  
+}
 .footer {
   background: #cfe1b9;
   color: #344e41;
