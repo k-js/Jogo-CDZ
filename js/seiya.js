@@ -12,11 +12,11 @@ function escolhaSaiygaFase(num,respostaCerta) {
             resposta = window.prompt("Selecione uma resposta")
         } else {
             alert("Lamentamos vc perdeu o Jogo! ")
-            window.location.href = "../img/gameOver.jpg";
+            window.location.href = "../../img/gameOver.jpg";
         }
     }
     if (pagina == 4){
-        return window.location.href = "../Personagens_CDZ/Seiya/fimDeJogo.html";
+        return window.location.href = "../../Personagens_CDZ/Seiya/fimDeJogo.html";
     }
     return  window.location.href = "saiyaFase" + pagina + ".html";
 }
