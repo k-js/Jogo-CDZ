@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personagem Saiya</title>
-    <link rel="shortcut icon" type="imagex/jpg" href="/img/imagex.jpg">
-    <link rel="stylesheet" href="./css/style.css">
-    
-</head>
-<body>
+    <link rel="shortcut icon" type="imagex/jpg" href="/img/imagex.jpg" />
+    <link rel="stylesheet" href="/css/estilo.css" />
+    <link rel="stylesheet" href="/css/mediaQuery.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
     <main>
-        <div>
-            <h1>Personagem Saiya</h1>
-            <h3>
-                Seiya de Pégaso: Garoto de 13 anos, Seiya busca o paradeiro de sua meia-irmã,
-                Seika; pra isso, vai em busca da Armadura de Pégaso e se tornar um Cavaleiro, pra poder entregar a Saori Kido, 
-                em troca de informações sobre Seika. Mas, ao descobrir que Saori é a deusa Atena, a quem os cavaleiros deve proteger,
-                entra em guerras santas pra enfrentar deuses rivais de Atena, ao longo de seus amigos.
-            </h3>
+      <div class="conteiner">
+        <div class="texto-principal">
+          <h1>Personagem Saiya</h1>
+          <h3>
+            Seiya de Pégaso: Garoto de 13 anos, Seiya busca o paradeiro de sua
+            meia-irmã, Seika; pra isso, vai em busca da Armadura de Pégaso e se
+            tornar um Cavaleiro, pra poder entregar a Saori Kido, em troca de
+            informações sobre Seika. Mas, ao descobrir que Saori é a deusa Atena,
+            a quem os cavaleiros deve proteger, entra em guerras santas pra
+            enfrentar deuses rivais de Atena, ao longo de seus amigos.
+          </h3>
         </div>
+        <div class="aviso">
+          <p>3 tentativas: Perdendo voltará para inicio do jogo!</p>
+        </div>
+        <div class="perguntas">
+          <p>Quando criança Saiya morava?</p>
+          <p>Resposta: 1 - Escola.</p>
+          <p>Resposta: 2 - Casa dos pais.</p>
+          <p>Resposta: 3 - Orfanato</p>
+        </div>
+        <div class="button">
+          <button class="btn"type="button" onclick="escolhaSaiygaFase(1,3)">
+            RESPONDER
+          </button>
+        </div>
+      </div>
+     
     </main>
     <footer class="footer">
-        <p>&copy; 2022 Keu Santos - Todos os direitos reservados </p> 
+      <p>&copy; 2022 Keu Santos - Todos os direitos reservados</p>
     </footer>
-    <script type="text/javascript" src="./js/script.js"></script>
-</body>
+    <script type="text/javascript" src="/js/seiya.js"></script>
+  </body>
 </html>

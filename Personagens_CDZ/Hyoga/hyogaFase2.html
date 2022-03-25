@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personagem Hyoga </title>
-    <link rel="shortcut icon" type="imagex/jpg" href="/img/imagex.jpg">
-    <link rel="stylesheet" href="./css/style.css">
-    
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personagem Hyoga</title>
+    <link rel="shortcut icon" type="imagex/jpg" href="/img/imagex.jpg" />
+    <link rel="stylesheet" href="/css/estilo.css" />
+    <link rel="stylesheet" href="/css/mediaQuery.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  </head>
+  <body>
     <main>
-            <div>
-                <h1>Personagem Hyoga</h1>
-                <h3>
-                    Hyoga de Cisne: Treinou pra se tornar um cavaleiro, pra poder ver o corpo de sua mãe Natássia,
-                    que morreu em um naufrágio, na Sibéria. Após isso,
-                    aceita a Armadura de Cisne, e lutar ao lado de Seiya e os outros.
-                </h3>
-            </div>
+      <div class="conteiner">
+        <div class="texto-principal">
+          <h1>Personagem Hyoga</h1>
+          <h3>
+            Hyoga de Cisne: Treinou pra se tornar um cavaleiro, pra poder ver o
+            corpo de sua mãe Natássia, que morreu em um naufrágio, na Sibéria.
+            Após isso, aceita a Armadura de Cisne, e lutar ao lado de Seiya e os
+            outros.
+          </h3>
+        </div>
+        <div class="aviso">
+          <p>3 tentativas: Perdendo voltará para inicio do jogo!</p>
+        </div>
+        <div class="perguntas">
+          <h4>É protegido por qual constelação ?</h4>
+          <p>Resposta: 1 - Mitsmasa Kid</p>
+          <p>Resposta: 2 - Cygnus</p>
+          <p>Resposta: 3 - Shun</p>
+        </div>
+        <div class="button">
+          <button  class="btn" type="button" onclick="escolhaHyogaFase(2,2)">
+            RESPONDER
+          </button>
+        </div>
+      </div>
     </main>
-    
     <footer class="footer">
-        <p>&copy; 2022 Keu Santos - Todos os direitos reservados </p> 
+      <p>&copy; 2022 Keu Santos - Todos os direitos reservados</p>
     </footer>
-    <script type="text/javascript" src="./js/script.js"></script>
-</body>
+    <script type="text/javascript" src="/js/hyoga.js"></script>
+  </body>
 </html>

@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personagem Shun</title>
-    <script type="text/javascript" src="./js/script.js"></script>
-    <link rel="shortcut icon" type="imagex/jpg" href="/img/imagex.jpg">
-    <link rel="stylesheet" href="./css/style.css">
-   
-</head>
-<body>
+    <link rel="shortcut icon" type="imagex/jpg" href="/img/imagex.jpg" />
+    <link rel="stylesheet" href="/css/estilo.css" />
+    <link rel="stylesheet" href="/css/mediaQuery.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <main>
-            <div>
-                <h1>Personagem Shun</h1>
-                <h3>
-                    Hyoga de Cisne: Treinou  Shun de Andrômeda: Apesar de odiar ferir pessoas, virou um cavaleiro 
-                    da Armadura de Andrômeda; ele luta, pensando que um dia, não precisar lutar mais.
-                </h3>
-            </div>
+      <div class="conteiner">
+        <div class="texto-principal">
+          <h1>Personagem Shun</h1>
+          <h3>
+            Shun de Andrômeda: Apesar de odiar ferir
+            pessoas, virou um cavaleiro da Armadura de Andrômeda; ele luta,
+            pensando que um dia, não precisar lutar mais.
+          </h3>
+        </div>
+        <div class="aviso">
+          <p>3 tentativa: Perdendo voltará para inicio do jogo!</p>
+        </div>
+        <div class="perguntas">
+          <p>Nome do mestre de Shun ?</p>
+          <p>Resposta: 1 - Ytun.</p>
+          <p>Resposta: 2 - Aldeo.</p>
+          <p>Resposta: 3 - Hytre.</p>
+        </div>
+        <div class="button">
+          <button class="btn" type="button" onclick="escolhaShunFase(3,2)">
+            RESPONDER
+          </button>
+        </div>
+      </div>
     </main>
-    
     <footer class="footer">
-        <p>&copy; 2022 Keu Santos - Todos os direitos reservados </p> 
+      <p>&copy; 2022 Keu Santos - Todos os direitos reservados</p>
     </footer>
-    <script type="text/javascript" src="./js/script.js"></script>
-</body>
+    <script type="text/javascript" src="/js/shun.js"></script>
+  </body>
 </html>

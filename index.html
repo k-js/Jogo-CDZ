@@ -6,42 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Os cavaleiros do zodioco</title>
     <link rel="shortcut icon" type="imagex/jpg" href="./img/imagex.jpg">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mediaQuery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-        <section>
-            <diV>
-                <div>
-                    <h1>Bem vindo ao jogo - Os cavaleiros do zodioco</h1>
+        <section class="conteiner">
+                <div class="texto-principal">
+                    <h1>Bem vindo ao jogo - Os Cavaleiros Dos Zodíaco</h1>
                     <h2>Para iniciar sua aventura escolha um dos personagens</h2>
                 </div>
-                <div>
-                    <img src="./img/hyoga.jpg" alt="Imagem de Hyoga" width="370px" height="480px">
-                    <img src="./img/saiya.jpg" alt="Imagem de Saiya" width="370px" height="480px">
-                    <img src="./img/shun.jpg" alt="Imagem de Shun" width="370px" height="480px">
+                <div class="imags">
+                    <img  class="itens"src="./img/hyoga.jpg" alt="Imagem de Hyoga" >
+                    <img class="itens" src="./img/saiya.jpg" alt="Imagem de Saiya" >
+                    <img class="itens" src="./img/shun.jpg" alt="Imagem de Shun" >
                 </div>
-                <div>
-                    <p>1 - Hyoga</p>
-                    <p>2 - Seiya</p>
-                    <p>3 - Shun</p>
-                    <button onclick="inicia()">ESCOLHAR</button>
+                <div class="personagens">
+                    <p class="item">1  Hyoga </p> 
+                    <p class="item">2  Seiya</p>
+                    <p class="item">3  Shun</p>
+                </div>
+                <div class="button">
+                    <button  class="btn" onclick="inicia()">ESCOLHAR</button>
+                </div> 
                 </div>
             </div>
-        </section>
-        <section>
-            <div>
+            <div class="dicas-div">
                 <p>Dicas de como vencer!</p>
-                <ul>
-                   <li><a href="https://docplayer.com.br/8528459-Os-cavaleiros-do-zodiaco.html" target="_blank">Saiba mais!</a></li>
+                <ul class="lista-saiba">
+                    <li><a href="https://docplayer.com.br/8528459-Os-cavaleiros-do-zodiaco.html" target="_blank">Saiba mais!</a></li>
             </div>
         </section>
+
+    </main>
 
         <footer class="footer">
             <p>&copy; 2022 Keu Santos - Todos os direitos reservados</p> 
         </footer>
-    </main>
 
-    <script src="./js/script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>

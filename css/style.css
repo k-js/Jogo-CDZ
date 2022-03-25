@@ -1,5 +1,103 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(236.85deg, #69d166 27.27%, #a3a269 96.03%);
+  font-family: "Palette Mosaic", cursive;
+}
+
+.conteiner {
+  background: #cfe1b9;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-sizing: 6px 6px 6pc #66d1ce;
+  padding: 35px 64px;
+}
+
+.texto-principal h1,
+h2 {
+  display: flex;
+  font-size: 30px;
+  color: #344e41;
+  width: 100%;
+  height: 70px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.itens {
+  margin-left: 90px;
+  margin-top: 40px;
+  border-radius: 50%;
+  width: 240px;
+  height: 270px;
+}
+.personagens {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  color: #344e41;
+  justify-content: space-around;
+  height: 70px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.button {
+  display: flex;
+  border-radius: 100px;
+  justify-content: center;
+  height: 90px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #4caf50;
+  border-radius: 100px;
+  color: #344e41;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Palette Mosaic", cursive;
+}
+
+.dicas-div {
+  display: flex;
+  font-size: 30px;
+  color: #344e41;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.lista-saiba li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #344e41;
+}
+
+.lista-saiba:hover {
+  font-size: 40px;
+  color:#344e41 ;
+}
+.footer {
+  background: #cfe1b9;
+  color: #344e41;
+  margin: 10px 64px 10px 64px;
+  border-radius: 20px;
+  box-sizing: 6px 6px 6pc #66d1ce;
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 20px;
 }
