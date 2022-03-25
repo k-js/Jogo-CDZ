@@ -11,7 +11,7 @@ function escolhaHyogaFase(num,respostaCerta) {
             resposta = window.prompt("Selecione uma resposta")
         } else {
             alert("Lamentamos vc perdeu o Jogo! ");
-            window.location.href = "../../img/gameOver.jpg";
+            window.location.href = "../../Personagens_CDZ/Hyoga/gameOver.html";
         }
     }
     if (pagina == 4){

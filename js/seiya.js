@@ -12,7 +12,7 @@ function escolhaSaiygaFase(num,respostaCerta) {
             resposta = window.prompt("Selecione uma resposta")
         } else {
             alert("Lamentamos vc perdeu o Jogo! ")
-            window.location.href = "../../img/gameOver.jpg";
+            window.location.href = "../../Personagens_CDZ/Seiya/gameOver.html";
         }
     }
     if (pagina == 4){
