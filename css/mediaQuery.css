@@ -34,3 +34,28 @@
         font-size: small;
     }
 }
+
+@media(max-width: 1324px){
+    .itens{
+        width: 130px;
+        height: 100px;
+    }
+    
+}
+@media(max-width: 1220px){
+        .texto-principal h1, .texto-principal h2{
+            font-size: 20px;
+        }
+
+        .texto-principal {
+            margin-bottom: 15px;
+        }
+}
+
+@media(max-width: 566px){
+    .texto-principal h1, .texto-principal h2{
+        font-size: 15px;
+    }
+}
+
+

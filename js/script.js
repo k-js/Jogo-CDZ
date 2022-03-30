@@ -19,9 +19,3 @@ function inicia() {
                 inicia();
         }
 }
-
-
-
-
-
-

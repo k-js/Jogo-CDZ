@@ -2,12 +2,10 @@
   padding: 0;
   margin: 0;
 }
-
 body {
   background: linear-gradient(236.85deg, #69d166 27.27%, #a3a269 96.03%);
   font-family: 'Acme', sans-serif;
 }
-
 .conteiner {
   background: #cfe1b9;
   color: #1c1c1c;
@@ -16,7 +14,6 @@ body {
   box-sizing: 6px 6px 6pc #66d1ce;
   padding: 35px 64px;
 }
-
 .texto-principal {
   display: flex;
   font-size: 20px;
@@ -56,7 +53,6 @@ body {
   margin-bottom: 20px;
   text-align: center;
 }
-
 .btn {
   background-color: #4caf50;
   border-radius: 100px;
@@ -78,7 +74,6 @@ body {
 }
 .imgs{
   text-align: center;
-  
 }
 .footer {
   background: #cfe1b9;
